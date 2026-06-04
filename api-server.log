@@ -1,0 +1,22 @@
+2026-05-31T10:12:11.313501Z [info     ] setup plugin alembic.autogenerate.schemas [alembic.runtime.plugins] loc=plugins.py:37
+2026-05-31T10:12:11.313632Z [info     ] setup plugin alembic.autogenerate.tables [alembic.runtime.plugins] loc=plugins.py:37
+2026-05-31T10:12:11.313687Z [info     ] setup plugin alembic.autogenerate.types [alembic.runtime.plugins] loc=plugins.py:37
+2026-05-31T10:12:11.313727Z [info     ] setup plugin alembic.autogenerate.constraints [alembic.runtime.plugins] loc=plugins.py:37
+2026-05-31T10:12:11.313761Z [info     ] setup plugin alembic.autogenerate.defaults [alembic.runtime.plugins] loc=plugins.py:37
+2026-05-31T10:12:11.313793Z [info     ] setup plugin alembic.autogenerate.comments [alembic.runtime.plugins] loc=plugins.py:37
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+Running the API server with uvicorn:
+Apps: all
+Workers: 1
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: -
+=================================================================
+2026-05-31T10:12:14.214330Z [info     ] Started server process [6419]  [uvicorn.error] loc=server.py:92
+2026-05-31T10:12:14.214426Z [info     ] Waiting for application startup. [uvicorn.error] loc=on.py:48
+2026-05-31T10:12:14.215333Z [info     ] Application startup complete.  [uvicorn.error] loc=on.py:62
+2026-05-31T10:12:14.217607Z [info     ] Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit) [uvicorn.error] loc=server.py:224

@@ -1,0 +1,60 @@
+# MODULE 1 — DATA INGESTION LAYER
+
+## Purpose
+
+Ingest:
+
+* CSV
+* APIs
+* Kafka streams
+* Database dumps
+* JSON logs
+
+---
+
+## Tech
+
+* Airflow
+* Kafka
+* Python
+* Spark Structured Streaming
+
+---
+
+## Flow
+
+```text id="6n74wi"
+Source → Kafka → Spark Streaming → Bronze Layer
+```
+
+Batch:
+
+```text id="5ez9v5"
+API/CSV → Airflow DAG → Spark → Bronze
+```
+
+---
+
+## Data Layers
+
+### Bronze
+
+Raw data
+
+### Silver
+
+Cleaned/transformed
+
+### Gold
+
+Business-ready
+
+---
+
+## Resume Value
+
+Shows:
+
+* medallion architecture
+* streaming
+* scalable ingestion
